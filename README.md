@@ -1,4 +1,5 @@
-ud120-projects [Intro to Machine Learning](https://www.udacity.com/courses/ud120).
+ud120-projects
+[Intro to Machine Learning](https://www.udacity.com/courses/ud120).
 ==============
 
 - [ ] Quiz scripts used throughout the course.
