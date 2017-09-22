@@ -20,6 +20,13 @@ features_train, labels_train, features_test, labels_test = makeTerrainData()
 # happens--fill in this function in the file 'classifyDT.py'!
 clf = classify(features_train, labels_train)
 
+# from sklearn import tree
+# clf2 = tree.DecisionTreeClassifier(min_samples_split=2)
+# clf50 = tree.DecisionTreeClassifier(min_samples_split=50)
+# clf2 = clf2.fit(features_train, labels_train)
+# clf50 = clf50.fit(features_train, labels_train)
+# print "Accuracy clf2: ", clf2.score(features_test, labels_test)
+# print "Accuracy clf50: ", clf50.score(features_test, labels_test)
 
 # grader code, do not modify below this line
 acc = clf.score(features_test, labels_test)
